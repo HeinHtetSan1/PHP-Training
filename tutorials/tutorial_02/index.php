@@ -9,7 +9,8 @@
   $total = 6;
   for ($r = 1; $r <= $total; $r++) {
     for ($space = $total - $r; $space >= 1; $space--) {
-      echo " 	&nbsp;";
+      //echo " 	&nbsp;";
+      echo "1";
     }
     for ($star = 1; $star <= 2 * $r - 1; $star++) {
       echo ("*");
