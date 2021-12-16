@@ -7,7 +7,6 @@
 <body>
   <table cellspacing="0px" cellpadding="0px" border="1px">
     <?php
-    //for loop
     for ($row = 1; $row <= 8; $row++) {
       echo "<tr>";
       for ($col = 1; $col <= 8; $col++) {
