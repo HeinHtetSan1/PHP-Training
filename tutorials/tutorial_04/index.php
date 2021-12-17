@@ -8,7 +8,6 @@ session_start();
     <title></title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <div id="login">
         <h1>You need to login</h1>
