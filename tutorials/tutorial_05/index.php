@@ -82,9 +82,7 @@
 	}
 	echo '</table>';
 	?>
-
-
-	</table>
+</table>
 </body>
 
 </html>
