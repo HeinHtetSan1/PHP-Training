@@ -15,16 +15,22 @@
       <p>
         <label for=""> Choose Birth Date</label>
         <input type="date" name="dob">
-        <input type="submit" name="s" value="calculate">
+        <input type="submit" name="submit" value="calculate">
       </p>
     </form>
     <?php
-    if (isset($_POST["s"])) {
+    if (isset($_POST["submit"])) {
       $bdate = $_POST['dob'];
       $tdate = date('y-m-d');
-      $diff = date_diff(date_create($bdate), date_create($tdate));
-      echo "You Age is " . $diff->format('%y') . "year.";
+	  if (isset($_POST['dob']) && $_POST['dob']!=''){
+		$diff = date_diff(date_create($bdate), date_create($tdate));
+		echo "You Age is " . $diff->format('%y') . "year.";
+	  }
+	  else{
+
+	  echo "Choose your born year.";
     }
+}
     ?>
   </div>
 </body>
