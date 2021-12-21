@@ -8,7 +8,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <div class="file">
         <form action="upload.php" method="post" enctype="multipart/form-data">
