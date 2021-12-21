@@ -26,7 +26,14 @@
                 </tr>
             </table>
         </form>
+		<?php
+       if(isset($_REQUEST['Message'])){
+         $msg = $_REQUEST['Message'];
+         echo "<p>$msg</p>";
+       }
+      ?>
     </div>
-</body>
 
+
+</body>
 </html>
