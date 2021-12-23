@@ -55,7 +55,7 @@ if (isset($_POST['submit'])) {
 				<td><input type="text" name="mail"></td>
 			</tr>
 			<tr>
-				<td><label for="password">Password</label></td>
+				<td><label for="password">Total Marks</label></td>
 				<td><input type="text" name="password"></td>
 			</tr>
 			<tr>

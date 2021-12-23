@@ -1,0 +1,12 @@
+.graph{
+	display: block;
+	width: 45%;
+	height: 50%;
+	float: right;
+	
+}
+.view {
+	width: 45%;
+	float: left;
+
+}
