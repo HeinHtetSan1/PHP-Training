@@ -63,5 +63,3 @@ if(isset($_POST['password-reset-token']) && $_POST['email'])
     }
 }
 }
-
-?>
