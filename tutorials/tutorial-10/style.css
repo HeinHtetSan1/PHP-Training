@@ -1,0 +1,37 @@
+.index a {
+	padding: 8px;
+	border: 1px solid;
+	text-decoration: none;
+	margin: 8px;
+	margin-bottom: 54px;
+}
+
+.index {
+    text-align: center;
+    
+}
+.com-form {
+    text-align: center;
+    border: 1px solid;
+    background: blue;
+    padding: 41px;
+    width: 26%;
+}
+.com-form td {
+	padding: 10px;
+}
+table {
+	margin: 0 auto;
+}
+body{
+    background-color: #ecead3;
+}
+td a {
+	color: aquamarine;
+	text-decoration: none;
+}
+.reset {
+	background-color: pink;
+	text-align: center;
+	padding: 10px;
+}
