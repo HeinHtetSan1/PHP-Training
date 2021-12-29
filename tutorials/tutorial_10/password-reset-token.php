@@ -2,30 +2,21 @@
 
 use PHPMailer\PHPMailer\PHPMailer;
 
-if(isset($_POST['password-reset-token']) && $_POST['email'])
+if(isset($_POST['password-reset-token']))
 {
     include "config.php";
      
     $emailId = $_POST['email'];
  
     $sql = "SELECT * FROM login WHERE email='" . $emailId . "'";
- 
+	echo  $emailId;
 	$result = $conn->query($sql);
-	
-
-
-
-    $row= mysqli_fetch_array($result);
+	$row= mysqli_fetch_array($result);
  
   if($row)
   {
-     
+    
     $link = "<a href='http://localhost:8000/reset-password.php?key=".$emailId."'>Click To Reset password</a>";
- 
-
-	
-
-
     require_once "vendor/autoload.php";
     $mail = new PHPMailer;
     //Enable SMTP debugging.
